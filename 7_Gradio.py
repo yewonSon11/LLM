@@ -15,4 +15,6 @@ interface = gr.Interface(
     outputs = 'text',
     title='좋아하는 언어',
     description='라디오 버튼에서 좋아하는 프로그래밍 언어를 선택하세요')
+
+
 interface.launch()
